@@ -1,7 +1,9 @@
-subprojects{
+project(':common') {
     apply plugin: 'java'
 }
 
+project(':server-core') {
+}
 
-project(':common') {
+project(':tracker-core') {
 }
